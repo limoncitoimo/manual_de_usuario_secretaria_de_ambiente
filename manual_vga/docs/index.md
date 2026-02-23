@@ -1,6 +1,6 @@
 # Presentación del Visor Geográfico
 
-El visor geográfico Ambiental, es la herramienta habilitada por la Secretaría Distrital de Ambiente de la ciudad de Bogotá, para poner a disposición de la ciudadanía, la academia, el sector público y privado la información de carácter ambiental que es de misionalidad de la entidad.
+El Visor Geográfico Ambiental es la herramienta implementada por la Secretaría Distrital de Ambiente de la ciudad de Bogotá, para poner a disposición de la ciudadanía, la academia, el sector público y privado la información de carácter ambiental que es de misionalidad de la entidad.
 
 El visor geográfico ambiental hace parte del Sistema de Información Ambiental de la Secretaría Distrital de Ambiente, partiendo del concepto de políticas, estándares e interoperabilidad de la Infraestructura de Datos Espaciales para el Distrito Capital (IDECA), y desarrollado con herramientas de Software Libre y de Código Abierto.
 
