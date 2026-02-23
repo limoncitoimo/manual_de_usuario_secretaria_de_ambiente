@@ -7,7 +7,7 @@ El proceso de registro y autenticación en el sistema se realiza mediante una cu
 <figcaption>Panel lateral de autenticación</figcaption>
 </figure>
 
-Seleccione la sesion con la cual quiere autenticarse e ingresar al sistema, acepte las condiciones de uso de la aplicación y finalmente termina el proceso de registro y autenticación.
+Seleccione la cuenta con la cual quiere autenticarse e ingresar al sistema, acepte las condiciones de uso de la aplicación y finalmente termina el proceso de registro y autenticación.
 
 La autenticación de los usuarios al sistema, permite entre otras cosas comunicarse con el administrador del sistema y acceder a las herramientas de reporte de incidencias en las campañas ambientales de la Secretaría Distrital de Ambiente.
 
