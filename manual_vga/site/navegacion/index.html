@@ -1,0 +1,979 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Manual de usuario del Visor Geográfico Ambiental">
+      
+      
+        <meta name="author" content="Secretaría Distrital de Ambiente de Bogotá">
+      
+      
+        <link rel="canonical" href="https://visorgeo.ambientebogota.gov.co/docs/manual/navegacion/">
+      
+      
+        <link rel="prev" href="../interfaz/">
+      
+      
+        <link rel="next" href="../ubicacion/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.23">
+    
+    
+      
+        <title>Navegación en el mapa, despliegue de capas y leyenda - Manual de usuario</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.1e989742.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../assets/stylesheets/modern/palette.dfe2e883.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Museo+Sans:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Museo Sans";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,a=__md_scope)=>JSON.parse(t.getItem(a.pathname+"."+e)),__md_set=(e,t,a=localStorage,_=__md_scope)=>{try{a.setItem(_.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="css/extra.css" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#navegacion-en-el-mapa-despliegue-de-capas-y-leyenda" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="./.." title="Manual de usuario" class="md-header__button md-logo" aria-label="Manual de usuario" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Manual de usuario
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Navegación en el mapa, despliegue de capas y leyenda
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="css/extra.css" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Buscar">
+  <button type="button" class="md-search__button">
+    Buscar
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./.." class="md-tabs__link">
+        
+  
+  Presentación
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../interfaz/" class="md-tabs__link">
+        
+  
+  Interfaz gráfica
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="././" class="md-tabs__link">
+        
+  
+  Navegación
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ubicacion/" class="md-tabs__link">
+        
+  
+  Búsqueda
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../reporte.md1" class="md-tabs__link">
+        
+  
+  Reportes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../autenticacion/" class="md-tabs__link">
+        
+  
+  Autenticación
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../posconsumo/" class="md-tabs__link">
+        
+  
+  Posconsumo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../datos_abiertos/" class="md-tabs__link">
+        
+  
+  Datos abiertos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../terminos/" class="md-tabs__link">
+        
+  
+  Términos de uso y política de privacidad
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../changelog/" class="md-tabs__link">
+        
+  
+  Registro de cambios
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./.." title="Manual de usuario" class="md-nav__button md-logo" aria-label="Manual de usuario" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    Manual de usuario
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interfaz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interfaz gráfica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navegación
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navegación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#herramientas-de-navegacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Herramientas de navegación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-de-capas-y-leyenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Panel de capas y leyenda
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-de-capas-geograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Panel de capas geográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#propiedades-de-la-capa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Propiedades de la capa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-de-capas-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Panel de capas base
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-de-informacion-y-leyenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Panel de información y leyenda
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compartir-mapa-en-redes-sociales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compartir mapa en redes sociales
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ubicacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Búsqueda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reporte.md1" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reportes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../autenticacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Autenticación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../posconsumo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Posconsumo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datos_abiertos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Datos abiertos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terminos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Términos de uso y política de privacidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Registro de cambios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="navegacion-en-el-mapa-despliegue-de-capas-y-leyenda">Navegación en el mapa, despliegue de capas y leyenda<a class="headerlink" href="#navegacion-en-el-mapa-despliegue-de-capas-y-leyenda" title="Permanent link">&para;</a></h1>
+<p>En esta sección se documenta la ayuda relacionada con la interfaz principal del Visor Geográfico, en lo que refiere al despliegue de capas geográficas, propiedades de las capas geográficas, así como el comportamiento de simbología y temporal de las mismas.</p>
+<p>Se define como capa geográfica a la serie de datos e información que se encuentra georeferenciada, adecuadamente estructurada, que representan objetos del paisaje de forma puntual, lineal o superficial. Estas capas, cómo abstracción de objetos del paisaje tienen propiedades y comportamientos, que logran representarse a través de un Sistema de Información Geográfica. Las propiedades espaciales, generalmente asociadas a su geometría y a una representación de simbología y etiquetado. Las propiedades de atributos de la capa, asociado con las características definidas por el objeto mismo, como puede ser el nombre del objeto, descripción, área y perímetro. A través de comportamiento, como ejemplo el temporal, se puede modelar a través del tiempo las tendencias de representación de propiedades particulares. En el visor geográfico también se entrega un comportamiento de la capa, con respecto a las escalas de representación, permitiendo asociar a escalas mayores de representación, o visualizar elementos con mayor detalle, asociar una leyenda apropiada para una mejor interpretación por parte del usuario.</p>
+<p>A través del Visor Geográfico Ambiental es posible la integración de una gran variedad de información y datos geográficos, misionalidad de la Secretaría Distrital de Ambiente, que permita al ciudadano conocer la gestión de la Secretaría en los temas ambientales del Distrito, así como llevar a cabo el análisis geográfico ambiental de su entorno.</p>
+<h2 id="herramientas-de-navegacion">Herramientas de navegación<a class="headerlink" href="#herramientas-de-navegacion" title="Permanent link">&para;</a></h2>
+<p>Para la interacción del usuario con el mapa de Visor Geográfico Ambiental, se cuenta con varias herramientas que permiten su navegación, visualización tanto espacial como de sus atributos, y comportamientos de propiedades temporales.</p>
+<p>Las herramientas de navegación se encuentran habilitadas por defecto con los eventos de ratón. Al hacer doble clic con el botón izquierdo del ratón, se realiza un acercamiento al mapa en el punto del evento. Al mantener presionado el botón izquierdo del ratón, es posible desplazar del mapa en la dirección indicada por el usuario. El botón central del ratón, en el caso de contar con la rueda, permite acercar o alejar del mapa, así como mantener presionado permite el desplazamiento en el mismo. Con la combinación del ratón, botón izquierdo, mientras presiona la tecla <em>Shift</em> permite realizar un acercamiento a una zona o extensión geográfica definida por el usuario. Finalmente con el clic derecho permite acceder al menú contextual de obtener coordenadas en el mapa. </p>
+<p>Las herramientas de navegación ubicada en la barra de herramientas, como se muestra a continuación, permite:</p>
+<p><img align="left" alt="Barra de Herramientas" src="../images/Navegacion/001.png" /></p>
+<p><strong><mark class="critic">(1)</mark></strong> <strong>Acercar en el mapa:</strong> tiene el mismo comportamiento de la herramienta de acercar en el mapa, permitiendo aumentar la escala del mapa o aumentar detalle del mismo de forma gradual.</p>
+<p><strong><mark class="critic">(2)</mark></strong> <strong>Alejar en el mapa:</strong> tiene el mismo comportamiento de la herramienta de alejar en el mapa, permitiendo disminuir la escala del mapa o disminuir detalle del mismo de forma gradual.</p>
+<p><strong><mark class="critic">(3)</mark></strong> <strong>Vista completa del mapa:</strong> regresa a la vista inicial o completa del mapa, enfocada principalmente a la zona urbana del Distrito.</p>
+<p><strong><mark class="critic">(4)</mark></strong> <strong>Imprimir mapa:</strong> Esta herramienta permite generar la salida del mapa en formato PDF de acuerdo a la configuración de la ventana de imprimir mapa: extensión geográfica, título del mapa, autor del mapa, habilitar grilla, orientación del mapa e incluir la leyenda.</p>
+<p><strong><mark class="critic">(5)</mark></strong> <strong>Vista mapa 3D:</strong> Realiza el despliegue de la vista del mapa en 3D con la configuración del modelo digital de elevaciones de la ciudad.</p>
+<p><strong><mark class="critic">(6)</mark></strong> <strong>Ubicación automática:</strong> Realiza la ubicación automática usando las opciones de localización del navegador Web, en caso de dispositivos móviles el uso de GNSS.</p>
+<p><strong><mark class="critic">(7)</mark></strong> <strong>Herramienta de identificación:</strong> permite desplegar el panel de identificación para retornar la información sobre las propiedades de atributos de la capa o capas activas en el mapa. Use esta funcionalidad sobre las capas activas y retorna la información que coincide de forma interactiva en el punto del mapa.</p>
+<figure>
+<p><img alt="Interfaz Bienvenida" src="../images/Navegacion/002-identificacion.png" /></p>
+<figcaption>Panel de medida de longitud y área</figcaption>
+</figure>
+<p><strong><mark class="critic">(8)</mark></strong> <strong>Herramientas de medida:</strong> </p>
+<figure>
+<p><img alt="Interfaz Bienvenida" src="../images/Navegacion/002-medida.png" /></p>
+<figcaption>Panel de medida de longitud y área</figcaption>
+</figure>
+<p><strong>Medida de longitudes:</strong> permite realizar la medición de distancias o longitudes entre dos o más puntos definidos por el usuario. El usuario al activar la herramienta cambia a modo de medida y debe especificar el punto de partida de medida y los puntos intermedios, el punto final se define con doble clic. Se reporta finalmente el valor de distancia y unidades apropiadas. Para finalizar de usar la herramienta haga clic nuevamente sobre la misma en la barra de herramientas o en el panel de información en el botón <em>Cerrar</em>. </p>
+<p><strong>Medir áreas:</strong> permite retornar información de área de un polígono dibujado por el usuario. Al activar la herramienta, el usuario tiene que definir el tipo de medida de área en el panel de medidas, y luego seleccionar el punto inicial, la secuencia de puntos y el punto final, o cierre del polígono se realiza con doble clic. Se reporta finalmente el valor de área y unidades apropiadas. Para finalizar de usar la herramienta haga clic nuevamente sobre la misma en la barra de herramientas o sobre el botón <em>Cerrar</em> del panel de información.</p>
+<p><strong><mark class="critic">(9)</mark></strong> <strong>Conversor de Coordenadas:</strong> Herramienta que permite realizar la conversión de coordenadas ingresadas por el usuario a diferentes sistemas de coordenadas. Al usar esta herramienta se despliega una ventana con las opciones de ingreso de coordenadas, búsqueda por coordenadas y conversión en los diferentes sistemas.</p>
+<figure>
+<p><img alt="Interfaz Bienvenida" src="../images/Navegacion/003-conversion_coordenadas.png" /></p>
+<figcaption>Búsqueda y conversión por coordenadas</figcaption>
+</figure>
+<p><strong><mark class="critic">(10)</mark></strong> <strong>Agregar datos Externos:</strong> permite agregar nueva capa de datos de fuentes de geoservicios Web o de sistemas de ficheros, Los formatos soportados son <em>GeoJSON, CSV, SHAPEZIP, KML</em>. Para tablas con coordenadas puntuales, usar formato <em>CSV</em> con nombres de las coordenadas geográficas como <strong><em>longitude</em></strong> y <strong><em>latitude</em></strong>. También permite agregar servicios <em>WMS</em> o <em>WFS</em> preconfigurados.</p>
+<figure>
+<p><img alt="Interfaz Bienvenida" src="../images/Navegacion/004-capas_externas.png" /></p>
+<figcaption>Agregar datos externos</figcaption>
+</figure>
+<h2 id="panel-de-capas-y-leyenda">Panel de capas y leyenda<a class="headerlink" href="#panel-de-capas-y-leyenda" title="Permanent link">&para;</a></h2>
+<p>El panel de capas se ubica en el panel lateral y la leyenda se despliega en la ventana flotante, en la parte izquierda del Visor Geográfico. A través de este menú lateral, es posible tener una organización de las capas geográficas, la simbología asociada y los incidencias ambientales reportados por los ciudadanos, de manera que esté a la mano la configuración e información del mapa.</p>
+<h2 id="panel-de-capas-geograficas">Panel de capas geográficas<a class="headerlink" href="#panel-de-capas-geograficas" title="Permanent link">&para;</a></h2>
+<p>Para desplegar el panel de capas geográficas simplemente haga clic sobre el icono Datos para desplegar el panel. El panel de capas geográficas está organizado por categorías, que permite al usuario identificar inicialmente las temáticas de interés.</p>
+<p><img align="left" alt="Barra de Herramientas" src="../images/Navegacion/002.png" /></p>
+<p><strong>Capas temáticas:</strong> incluye las todas las capas de carácter misional organizadas por temáticas.</p>
+<p><strong>Básico Temático:</strong> las capas complementarias a los análisis espaciales ambientales, como la densidad de población.</p>
+<p><strong>Capas de usuario:</strong> aquellas capas que son agregados por el usuario desde la herramienta avanza de agregar datos.</p>
+<h2 id="propiedades-de-la-capa">Propiedades de la capa<a class="headerlink" href="#propiedades-de-la-capa" title="Permanent link">&para;</a></h2>
+<p>Por cada capa geográfica, es posible cargar una serie de comportamientos y propiedades. Dependiendo del icono que se encuentre habilitado actualmente en dicha capa. La siguiente imagen muestra un ejemplo de capa geográfica temática.</p>
+<figure>
+<p><img alt="Propiedades de las capas geográficas" src="../images/Navegacion/003.png" /></p>
+<figcaption>Propiedades de las capas geográficas</figcaption>
+</figure>
+<p>Las capas por defecto se encuentran desactivadas en la visualización del mapa, representadas con el icono <img alt="Icono Apagado" src="../images/Navegacion/004.png" />. Al hacer clic sobre este icono es posible activar la capa, cambiando al icono <img alt="Icono Encendido" src="../images/Navegacion/005.png" />.</p>
+<p>Si la capa presenta la propiedad temporal, con el siguiente icono se puede desplegar el panel de filtro y cambio dinámico de la representación de la capa. como se muestra en la imagen a continuación <img alt="Icono Temporalidad" src="../images/Navegacion/006.png" />:</p>
+<figure>
+<p><img alt="Herramienta de despliegue de propiedades temporales" src="../images/Navegacion/007.png" /></p>
+<figcaption>Herramienta de despliegue de propiedades temporales</figcaption>
+</figure>
+<p>Para desactivar la barra temporal, desactive la visualización de la capa en el mapa.</p>
+<p>De gran importancia dentro de la Infraestructura Espacial de Datos, es el despliegue de la información propia de la capa o los metadatos, en el que entregue al usuario el detalle de producción y mantenimiento de la capa. Para desplegar el menú de opciones de la capa, entre ellas la consulta de los metadatos de la capa haga clic sobre el icono <img alt="Icono Opciones" src="../images/Navegacion/008.png" />.</p>
+<p>Esto despliega un menú emergente donde se puede acceder a las opciones de la capa, entre ellas la ventana con el metadato mínimo.</p>
+<figure>
+<p><img alt="Menu Opciones" src="../images/Navegacion/009.png" /></p>
+<figcaption>Menú Opciones capa geográfica</figcaption>
+</figure>
+<figure>
+<p><img alt="Despliegue de metadatos de la capa geográfica" src="../images/Navegacion/010.png" /></p>
+<figcaption>Despliegue de metadatos de la capa geográfica</figcaption>
+</figure>
+<p>En la opción del menú emergente de la capa <em>Ver indicadores ambientales</em> <strong>(OAB)</strong> permite desplegar el indicador ambiental asociado a la capa en el sitio Web del proyecto de  <a href="https://oab.ambientebogota.gov.co/">Observatorio Ambiental de Bogotá</a>. La siguiente imagen muestra un ejemplo de despliegue de indicadores ambientales asociados a la capa:</p>
+<figure>
+<p><img alt="Menu Opciones" src="../images/Navegacion/011.png" /></p>
+<figcaption>Menú Opciones capa geográfica</figcaption>
+</figure>
+<figure>
+<p><img alt="Despliegue de indicadores ambientales asociados a la capa" src="../images/Navegacion/012.png" /></p>
+<figcaption>Despliegue de indicadores ambientales asociados a la capa</figcaption>
+</figure>
+<p>Al hacer clic sobre algunos de los indicadores se redirecciona a la página del <a href="https://oab.ambientebogota.gov.co/">Observatorio Ambiental de Bogotá</a>.</p>
+<p>Otra de las opciones disponibles es cambiar el orden de las capas y la transparencia de cada una ellas. Este puede ser accedido con el icono <img alt="Icono configuracion" src="../images/Navegacion/icono-capa_propiedades.png" /> en el panel de herramientas del panel lateral de <strong>Datos</strong> o través del menú contextual de cada capa.</p>
+<figure>
+<p><img alt="Menu Opciones" src="../images/Navegacion/014-orden_transparencia.png" /></p>
+<figcaption>Menú Opciones capa geográfica</figcaption>
+</figure>
+<p>Esto despliega una ventana de la configuración de las capas, tanto el orden como la transparencia.</p>
+<figure>
+<p><img alt="Menu Opciones" src="../images/Navegacion/015-orden_transparencia.png" /></p>
+<figcaption>Menú Opciones capa geográfica</figcaption>
+</figure>
+<h2 id="panel-de-capas-base">Panel de capas base<a class="headerlink" href="#panel-de-capas-base" title="Permanent link">&para;</a></h2>
+<p>Refiere a las capas base de representación sobre las que se despliegan las capas temáticas, y permiten entregar un contexto de ubicación. Las principales capas base, son el mapa base digital y la ortoimagen del Distrito de IDECA. Las capas base se encuentran en el panel flotante en la parte inferior derecha, junto al despliegue de coordenadas. </p>
+<figure>
+<p><img alt="Despliegue de indicadores ambientales asociados a la capa" src="../images/Navegacion/013-mapas_base.png" /></p>
+<figcaption>Despliegue de los mapas base</figcaption>
+</figure>
+<h2 id="panel-de-informacion-y-leyenda">Panel de información y leyenda<a class="headerlink" href="#panel-de-informacion-y-leyenda" title="Permanent link">&para;</a></h2>
+<p>El panel de información y leyenda, despliega la simbología asociada a las capas activas de visualización en el mapa. Para desplegar el panel de leyenda haga clic en una de las pestañas del panel flotante para que se despliegue la información de interés.</p>
+<figure>
+<p><img alt="Panel de información y leyenda" src="../images/Navegacion/013.png" /></p>
+<figcaption>Panel de información y leyenda </figcaption>
+</figure>
+<p>La leyenda y convenciones se organizan por las categorías definidas en el panel de capas geográficas.</p>
+<p>La leyenda y convenciones son dinámicas en el mapa, ya que los comportamientos de la simbología de las capas cambian cuando se despliega en ciertos intervalos de escala. Esto permite un mejor representación de los elementos desde el nivel Distrital hasta nivel predial.</p>
+<h2 id="compartir-mapa-en-redes-sociales">Compartir mapa en redes sociales<a class="headerlink" href="#compartir-mapa-en-redes-sociales" title="Permanent link">&para;</a></h2>
+<p>Esta funcionalidad se encuentra habilitada en el panel lateral a través del botón de compartir configuración del mapa en las redes sociales <img alt="Menu Opciones" src="../images/Navegacion/014.png" /> o traves de la opción <em>Compartir capa</em> en el menú contextaul de cada capa.</p>
+<p>Al hacer clic sobre este grupo de iconos despliega las diferentes redes a través de las cuales se puede compartir la configuración del mapa.</p>
+<figure>
+<p><img alt="Opciones de compartir configuración de mapa en redes sociales" src="../images/Navegacion/015.png" /></p>
+<figcaption>Opciones de compartir configuración de mapa en redes sociales </figcaption>
+</figure>
+<p>Las redes sociales en su orden son <a href="https://twitter.com/?lang=es">Twitter</a>, <a href="https://es-la.facebook.com/">Facebook</a>,  <a href="https://co.linkedin.com/">LinkedIn</a>, <a href="https://co.pinterest.com/">Pinterest</a>, <a href="https://web.telegram.org/">Telegram</a> y compartir a través de mensaje de correo electrónico.</p>
+<p>Una configuración de mapa está definida por una extensión geográfica y las capas activas actuales de visualización. Al compartir en la red social el enlace del mapa, el usuario comparte la vista actual del mapa y que luego puede ser desplegado con igual configuración.</p>
+<p>También es posible generar un enlace web de mapa embebido con las capas actualmente desplegadas, así como el contexto geográfico representado. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Derechos reservados &copy; 2024 Secretaría Distrital de Ambiente
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:<visorsda@ambientebogota.gov.co>" target="_blank" rel="noopener" title="Correo" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M536.4-26.3c9.8-3.5 20.6-1 28 6.3s9.8 18.2 6.3 28l-178 496.9c-5 13.9-18.1 23.1-32.8 23.1-14.2 0-27-8.6-32.3-21.7l-64.2-158c-4.5-11-2.5-23.6 5.2-32.6l94.5-112.4c5.1-6.1 4.7-15-.9-20.6s-14.6-6-20.6-.9l-112.4 94.3c-9.1 7.6-21.6 9.6-32.6 5.2L38.1 216.8c-13.1-5.3-21.7-18.1-21.7-32.3 0-14.7 9.2-27.8 23.1-32.8z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://visorgeo.ambientebogota.gov.co" target="_blank" rel="noopener" title="Sitio Web" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2C505.9 32 576 102 576 188.5c0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1C429.8 399.5 390 416 348.5 416 262.1 416 192 346 192 259.5c0-1.5 0-3 .1-4.5.5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9v2.6c0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zm-144.3 77.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1l-71.1 71.1C73.8 275.5 64 299.1 64 323.6c0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2C70.1 480.2 0 410.2 0 323.7c0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9v3.9c-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8v-2.3c0-33.7-18-63.3-44.8-79.6z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["navigation.sections","navigation.instant","navigation.expand","navigation.tabs","toc.integrate","toc.follow"],"search":"../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"Copiado al portapapeles","clipboard.copy":"Copiar al portapapeles","search.result.more.one":"1 más en esta página","search.result.more.other":"# más en esta página","search.result.none":"No se encontraron documentos","search.result.one":"1 documento encontrado","search.result.other":"# documentos encontrados","search.result.placeholder":"Teclee para comenzar búsqueda","search.result.term.missing":"Falta","select.version":"Seleccionar versión"},"version":null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5fcf0de6.min.js"></script>
+      
+    
+  </body>
+</html>

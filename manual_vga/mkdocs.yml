@@ -1,0 +1,70 @@
+site_name: Manual de usuario
+site_url: https://visorgeo.ambientebogota.gov.co/docs/manual/
+site_description: Manual de usuario del Visor Geográfico Ambiental
+site_author: Secretaría Distrital de Ambiente de Bogotá
+copyright: Creative Commons 4
+
+nav:
+    - Presentación: index.md
+    - Interfaz gráfica: interfaz.md
+    - Navegación: navegacion.md
+    - Búsqueda: ubicacion.md
+    - Reportes: reporte.md1
+    - Autenticación: autenticacion.md
+    - Posconsumo: posconsumo.md
+    - Datos abiertos: datos_abiertos.md
+    - Términos de uso y política de privacidad: terminos.md
+    - Registro de cambios: changelog.md
+
+extra_css:
+  - css/extra.css
+
+theme:
+  font:
+    text: Museo Sans
+  palette:
+    primary: css/extra.css
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.expand
+    - navigation.tabs
+    - toc.integrate
+    - toc.follow
+  name: material
+  logo: 'images/logo.png'
+  language: es
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<visorsda@ambientebogota.gov.co>
+      name: Correo
+    - icon: fontawesome/solid/link
+      link: https://visorgeo.ambientebogota.gov.co
+      name: Sitio Web
+
+copyright: Derechos reservados &copy; 2024 Secretaría Distrital de Ambiente
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.tasklist:
+      custom_checkbox: true
