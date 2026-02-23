@@ -28,9 +28,9 @@ El desarrollo del Visor Geográfico Ambiental de la Secretaría Distrital de Amb
 
 ### Las herramientas de software libre
 
-+ **Python**: Como lenguaje de programación del lado del servidor
-+ **Django**: El marco de trabajo del lado del servidor y que provee los servicios
++ **Python**: Como lenguaje de programación del lado del servidor.
++ **Django**: El marco de trabajo del lado del servidor y que provee los servicios.
 + **Suite de Mapserver**: Servidor de mapas, generación de servicios de caches y todo lo relacionado la OGC.
-+ **Bootstrap**: desarrollo del lado del cliente y todas las librerías en el lenguaje de Javascript
-+ **Openlayers y Cesium**: Librería para el despliegue del visor 
-+ **Libreoffice**: Para la generación de los reportes y conversión de formatos
++ **Bootstrap**: desarrollo del lado del cliente y todas las librerías en el lenguaje de Javascript.
++ **Openlayers y Cesium**: Librería para el despliegue del visor.
++ **Libreoffice**: Para la generación de los reportes y conversión de formatos.
