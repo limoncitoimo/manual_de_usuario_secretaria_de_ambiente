@@ -1,12 +1,12 @@
 # Interfaz principal
 
-Este manual está orientado a servir de ayuda y soporte de las diferentes funcionalidades del Visor Geográfico Ambiental a las que puede acceder la ciudadanía en la plataforma Web.
+Este manual está orientado a servir de ayuda y soporte para las diferentes funcionalidades del Visor Geográfico Ambiental a las que puede acceder la ciudadanía en la plataforma Web.
 
-Para acceder a los servicios de información e interacción a través del Visor Geográfico, se debe contar con un navegador Web moderno que soporte los estándares abiertos de la W3C, evaluado principalmente en los navegadores Web como Mozilla Firefox, Google Chrome o versiones 11 o mayores de Internet Explorer.
+Para acceder a los servicios de información e interacción a través del Visor Geográfico, se debe contar con un navegador Web moderno que soporte los estándares abiertos de la W3C. El Visor ha sido evaluado principalmente en los navegadores Web como Mozilla Firefox, Google Chrome e Internet Explorer versión 11 o superior.
 
-La resolución mínima de pantalla solicitada para el correcto despliegue del Visor Geográfico Ambiental es de 1024x768.
+La resolución mínima de pantalla requerida para el correcto despliegue del Visor Geográfico Ambiental es de 1024x768.
 
-Para acceder al sistema use la siguiente URL:
+Para ingresar al sistema use la siguiente URL:
 
 !!! note "IMPORTANTE"
 
