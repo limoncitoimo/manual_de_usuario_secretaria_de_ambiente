@@ -12,7 +12,7 @@ Para ingresar al sistema use la siguiente URL:
 
     [https://visorgeo.ambientebogota.gov.co](visorgeo.ambientebogota.gov.co)
 
-El Sitio Web despliega por defecto la interfaz principal con los créditos y seguimiento en redes sociales del Visor Geográfico Ambiental:   
+El sitio Web despliega por defecto la interfaz principal con los créditos y seguimiento en redes sociales del Visor Geográfico Ambiental:   
 
 <figure markdown>
 ![Interfaz Bienvenida](images/001-InterfazBienvenida.png)
