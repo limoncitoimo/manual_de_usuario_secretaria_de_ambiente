@@ -38,7 +38,7 @@ Corresponde al numeral **{==(2)==}**, en este panel flotante se lleva a cabo el 
 
 Corresponde al numeral **{==(3)==}** y presenta el despliegue de los mapas base y de las capas temáticas seleccionadas por el usuario. Además, permite  interactuar con las capas geográficas de interés desplegadas, asociadas a una simbología y etiquetado, así como a comportamientos a través de las escalas y temporal.
 
-Sobre el componente de mapa se despliega una serie de herramientas auxiliares de navegación (10), como acercar, alejar y moverse a través del mapa. Estas herramientas también sirven como indicador del nivel de detalle de visualización en el mapa.
+Sobre el componente de mapa se despliega una serie de herramientas auxiliares de navegación (en total 11), como acercar, alejar y moverse a través del mapa. Estas herramientas también sirven como indicador del nivel de detalle de visualización en el mapa.
 
 ## Barra de herramientas
 

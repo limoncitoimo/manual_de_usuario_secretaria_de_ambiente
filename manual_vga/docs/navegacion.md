@@ -2,9 +2,9 @@
 
 En esta sección se documenta la ayuda relacionada con la interfaz principal del Visor Geográfico, específicamente en lo que refiere al despliegue de capas geográficas, las propiedades de estas capas, así como el comportamiento de su simbología y representación temporal.
 
-Se define como capa geográfica a la serie de datos e información que se encuentra georeferenciada, adecuadamente estructurada, que representan objetos del paisaje de forma puntual, lineal o superficial. Estas capas, cómo abstracción de objetos del paisaje tienen propiedades y comportamientos, que logran representarse a través de un Sistema de Información Geográfica. Las propiedades espaciales, generalmente asociadas a su geometría y a una representación de simbología y etiquetado. Las propiedades de atributos de la capa, asociado con las características definidas por el objeto mismo, como puede ser el nombre del objeto, descripción, área y perímetro. A través de comportamiento, como ejemplo el temporal, se puede modelar a través del tiempo las tendencias de representación de propiedades particulares. En el visor geográfico también se entrega un comportamiento de la capa, con respecto a las escalas de representación, permitiendo asociar a escalas mayores de representación, o visualizar elementos con mayor detalle, asociar una leyenda apropiada para una mejor interpretación por parte del usuario.
+Se define como capa geográfica a la serie de datos e información que se encuentra georeferenciada y adecuadamente estructurada, que representan objetos del paisaje de forma puntual, lineal o superficial. Estas capas, como abstracción de los objetos del paisaje, tienen propiedades y comportamientos que logran representarse a través de un Sistema de Información Geográfica. Las propiedades espaciales están generalmente asociadas a su geometría y a una representación de simbología y etiquetado. Las propiedades de atributos de la capa están asociadas con las características definidas por el objeto mismo, como puede ser su nombre, descripción, área y perímetro. A través del comportamiento temporal, por ejemplo, se pueden modelar las tendencias de representación de propiedades particulares a lo largo del tiempo. En el Visor Geográfico también se presenta un comportamiento de la capa, relacionado con las escalas de representación, permitiendo asociar a escalas mayores de representación, o visualizar elementos con mayor detalle, así como asociar una leyenda apropiada para una mejor interpretación por parte del usuario.
 
-A través del Visor Geográfico Ambiental es posible la integración de una gran variedad de información y datos geográficos, misionalidad de la Secretaría Distrital de Ambiente, que permita al ciudadano conocer la gestión de la Secretaría en los temas ambientales del Distrito, así como llevar a cabo el análisis geográfico ambiental de su entorno.
+A través del Visor Geográfico Ambiental, es posible la integración de una gran variedad de información y datos geográficos, misionalidad de la Secretaría Distrital de Ambiente, que permita al ciudadano conocer la gestión ambiental de la Secretaría en el Distrito, así como llevar a cabo el análisis geográfico ambiental de su entorno.
 
 ## Herramientas de navegación
 
@@ -27,16 +27,18 @@ Las herramientas de navegación ubicada en la barra de herramientas, como se mue
 
 **{==(5)==}** **Vista mapa 3D:** Realiza el despliegue de la vista del mapa en 3D con la configuración del modelo digital de elevaciones de la ciudad.
 
-**{==(6)==}** **Ubicación automática:** Realiza la ubicación automática usando las opciones de localización del navegador Web, en caso de dispositivos móviles el uso de GNSS.
+**{==(6)==}** **Street View:** Realiza la ubicación automática usando las opciones de localización del navegador Web, en caso de dispositivos móviles el uso de GNSS.
 
-**{==(7)==}** **Herramienta de identificación:** permite desplegar el panel de identificación para retornar la información sobre las propiedades de atributos de la capa o capas activas en el mapa. Use esta funcionalidad sobre las capas activas y retorna la información que coincide de forma interactiva en el punto del mapa.
+**{==(7)==}** **Ubicación automática:** Realiza la ubicación automática usando las opciones de localización del navegador Web, en caso de dispositivos móviles el uso de GNSS.
+
+**{==(8)==}** **Herramienta de identificación:** permite desplegar el panel de identificación para retornar la información sobre las propiedades de atributos de la capa o capas activas en el mapa. Use esta funcionalidad sobre las capas activas y retorna la información que coincide de forma interactiva en el punto del mapa.
 
 <figure markdown>
 ![Interfaz Bienvenida](images/Navegacion/002-identificacion.png)
 <figcaption>Panel de medida de longitud y área</figcaption>
 </figure>
 
-**{==(8)==}** **Herramientas de medida:** 
+**{==(9)==}** **Herramientas de medida:** 
 
 <figure markdown>
 ![Interfaz Bienvenida](images/Navegacion/002-medida.png)
@@ -48,14 +50,14 @@ Las herramientas de navegación ubicada en la barra de herramientas, como se mue
 
 **Medir áreas:** permite retornar información de área de un polígono dibujado por el usuario. Al activar la herramienta, el usuario tiene que definir el tipo de medida de área en el panel de medidas, y luego seleccionar el punto inicial, la secuencia de puntos y el punto final, o cierre del polígono se realiza con doble clic. Se reporta finalmente el valor de área y unidades apropiadas. Para finalizar de usar la herramienta haga clic nuevamente sobre la misma en la barra de herramientas o sobre el botón *Cerrar* del panel de información.
 
-**{==(9)==}** **Conversor de Coordenadas:** Herramienta que permite realizar la conversión de coordenadas ingresadas por el usuario a diferentes sistemas de coordenadas. Al usar esta herramienta se despliega una ventana con las opciones de ingreso de coordenadas, búsqueda por coordenadas y conversión en los diferentes sistemas.
+**{==(10)==}** **Conversor de Coordenadas:** Herramienta que permite realizar la conversión de coordenadas ingresadas por el usuario a diferentes sistemas de coordenadas. Al usar esta herramienta se despliega una ventana con las opciones de ingreso de coordenadas, búsqueda por coordenadas y conversión en los diferentes sistemas.
 
 <figure markdown>
 ![Interfaz Bienvenida](images/Navegacion/003-conversion_coordenadas.png)
 <figcaption>Búsqueda y conversión por coordenadas</figcaption>
 </figure>
 
-**{==(10)==}** **Agregar datos Externos:** permite agregar nueva capa de datos de fuentes de geoservicios Web o de sistemas de ficheros, Los formatos soportados son *GeoJSON, CSV, SHAPEZIP, KML*. Para tablas con coordenadas puntuales, usar formato *CSV* con nombres de las coordenadas geográficas como ***longitude*** y ***latitude***. También permite agregar servicios *WMS* o *WFS* preconfigurados.
+**{==(11)==}** **Agregar datos Externos:** permite agregar nueva capa de datos de fuentes de geoservicios Web o de sistemas de ficheros, Los formatos soportados son *GeoJSON, CSV, SHAPEZIP, KML*. Para tablas con coordenadas puntuales, usar formato *CSV* con nombres de las coordenadas geográficas como ***longitude*** y ***latitude***. También permite agregar servicios *WMS* o *WFS* preconfigurados.
 
 <figure markdown>
 ![Interfaz Bienvenida](images/Navegacion/004-capas_externas.png)
