@@ -8,34 +8,34 @@ A través del Visor Geográfico Ambiental, es posible la integración de una gra
 
 ## Herramientas de navegación
 
-Para la interacción del usuario con el mapa de Visor Geográfico Ambiental, se cuenta con varias herramientas que permiten su navegación, visualización tanto espacial como de sus atributos, y comportamientos de propiedades temporales.
+Para la interacción del usuario con el mapa del Visor Geográfico Ambiental, se dispone de varias herramientas que permiten su navegación, visualización espacial, así como de sus atributos y comportamientos de propiedades temporales.
 
-Las herramientas de navegación se encuentran habilitadas por defecto con los eventos de ratón. Al hacer doble clic con el botón izquierdo del ratón, se realiza un acercamiento al mapa en el punto del evento. Al mantener presionado el botón izquierdo del ratón, es posible desplazar del mapa en la dirección indicada por el usuario. El botón central del ratón, en el caso de contar con la rueda, permite acercar o alejar del mapa, así como mantener presionado permite el desplazamiento en el mismo. Con la combinación del ratón, botón izquierdo, mientras presiona la tecla *Shift* permite realizar un acercamiento a una zona o extensión geográfica definida por el usuario. Finalmente con el clic derecho permite acceder al menú contextual de obtener coordenadas en el mapa. 
+Las herramientas de navegación se encuentran habilitadas por defecto con los eventos de ratón. Al hacer doble clic con el botón izquierdo del ratón, se realiza un acercamiento al mapa en el punto del evento. Al mantener presionado el botón izquierdo del ratón, es posible desplazar el mapa en la dirección indicada por el usuario. El botón central del ratón, en caso de contar con la rueda, permite acercar o alejar del mapa, así como al mantenerlo presionado permite el desplazamiento del mapa. Con la combinación del ratón, presionando el botón izquierdo junto con la tecla *Shift* permite realizar un acercamiento a una zona o extensión geográfica definida por el usuario. Finalmente, con el clic derecho permite acceder al menú contextual para obtener las coordenadas en el mapa. 
 
-Las herramientas de navegación ubicada en la barra de herramientas, como se muestra a continuación, permite:
+Las herramientas de navegación ubicadas en la barra de herramientas, como se muestra a continuación, permiten:
 
 
 ![Barra de Herramientas](images/Navegacion/001.png){ align=left }
 
-**{==(1)==}** **Acercar en el mapa:** tiene el mismo comportamiento de la herramienta de acercar en el mapa, permitiendo aumentar la escala del mapa o aumentar detalle del mismo de forma gradual.
+**{==(1)==}** **Acercar en el mapa:** Esta herramienta tiene el mismo comportamiento que la opción de acercar en el mapa, permitiendo aumentar la escala del mapa o aumentar el detalle de forma gradual.
 
-**{==(2)==}** **Alejar en el mapa:** tiene el mismo comportamiento de la herramienta de alejar en el mapa, permitiendo disminuir la escala del mapa o disminuir detalle del mismo de forma gradual.
+**{==(2)==}** **Alejar en el mapa:** Funciona de manera similar a la herramienta de alejar en el mapa, permitiendo disminuir la escala del mapa o disminuir el detalle del mismo de forma gradual.
 
-**{==(3)==}** **Vista completa del mapa:** regresa a la vista inicial o completa del mapa, enfocada principalmente a la zona urbana del Distrito.
+**{==(3)==}** **Vista completa del mapa:** Esta opción regresa a la vista inicial o completa del mapa, enfocada principalmente a la zona urbana del Distrito.
 
-**{==(4)==}** **Imprimir mapa:** Esta herramienta permite generar la salida del mapa en formato PDF de acuerdo a la configuración de la ventana de imprimir mapa: extensión geográfica, título del mapa, autor del mapa, habilitar grilla, orientación del mapa e incluir la leyenda.
+**{==(4)==}** **Imprimir mapa:** Esta herramienta permite generar la salida del mapa en formato PDF, de acuerdo con la configuración de la ventana de imprimir mapa: extensión geográfica, título del mapa, autor, habilitar grilla, orientación del mapa e incluir la leyenda.
 
 **{==(5)==}** **Vista mapa 3D:** Realiza el despliegue de la vista del mapa en 3D con la configuración del modelo digital de elevaciones de la ciudad.
 
-**{==(6)==}** **Street View:** Realiza la ubicación automática usando las opciones de localización del navegador Web, en caso de dispositivos móviles el uso de GNSS.
+**{==(6)==}** **Street View:** Esta opción activa la vista en 360 grados de la zona seleccionada, permitiendo al usuario explorar el entorno a nivel de calle. Utiliza las funciones del navegador Web, abriendo una nueva pestaña de Google Maps en la ubicación seleccionada.
 
 **{==(7)==}** **Ubicación automática:** Realiza la ubicación automática usando las opciones de localización del navegador Web, en caso de dispositivos móviles el uso de GNSS.
 
-**{==(8)==}** **Herramienta de identificación:** permite desplegar el panel de identificación para retornar la información sobre las propiedades de atributos de la capa o capas activas en el mapa. Use esta funcionalidad sobre las capas activas y retorna la información que coincide de forma interactiva en el punto del mapa.
+**{==(8)==}** **Herramienta de identificación:** Permite desplegar el panel de identificación, el cual muestra información sobre las propiedades de atributos de las capas activas en el mapa. Use esta funcionalidad sobre las capas activas y retorna la información que coincide de forma interactiva en el punto del mapa.
 
 <figure markdown>
 ![Interfaz Bienvenida](images/Navegacion/002-identificacion.png)
-<figcaption>Panel de medida de longitud y área</figcaption>
+<figcaption>Panel de información e identificación</figcaption>
 </figure>
 
 **{==(9)==}** **Herramientas de medida:** 
@@ -46,18 +46,18 @@ Las herramientas de navegación ubicada en la barra de herramientas, como se mue
 </figure>
 
 
-**Medida de longitudes:** permite realizar la medición de distancias o longitudes entre dos o más puntos definidos por el usuario. El usuario al activar la herramienta cambia a modo de medida y debe especificar el punto de partida de medida y los puntos intermedios, el punto final se define con doble clic. Se reporta finalmente el valor de distancia y unidades apropiadas. Para finalizar de usar la herramienta haga clic nuevamente sobre la misma en la barra de herramientas o en el panel de información en el botón *Cerrar*. 
+**Medida de longitudes:** Esta herramienta permite realizar la medición de distancias o longitudes entre dos o más puntos definidos por el usuario. Al activarla, el usuario cambia al modo de medida y debe especificar el punto de partida, los puntos intermedios y el punto final se define con doble clic. Finalmente, se reporta el valor de distancia y unidades apropiadas. Para finalizar el uso la herramienta, haga clic nuevamente sobre la misma en la barra de herramientas o sobre el botón *Cerrar* del panel de información.
 
-**Medir áreas:** permite retornar información de área de un polígono dibujado por el usuario. Al activar la herramienta, el usuario tiene que definir el tipo de medida de área en el panel de medidas, y luego seleccionar el punto inicial, la secuencia de puntos y el punto final, o cierre del polígono se realiza con doble clic. Se reporta finalmente el valor de área y unidades apropiadas. Para finalizar de usar la herramienta haga clic nuevamente sobre la misma en la barra de herramientas o sobre el botón *Cerrar* del panel de información.
+**Medir áreas:** Permite obtener la información del área de un polígono dibujado por el usuario. Al activar la herramienta, el usuario tiene que definir el tipo de medida de área en el panel de medidas, y luego seleccionar el punto inicial, la secuencia de puntos y el punto final, el cierre del polígono se realiza con doble clic. Finalmente, se reporta el valor de área y unidades apropiadas. Para finalizar de usar la herramienta haga clic nuevamente sobre la misma en la barra de herramientas o sobre el botón *Cerrar* del panel de información.
 
-**{==(10)==}** **Conversor de Coordenadas:** Herramienta que permite realizar la conversión de coordenadas ingresadas por el usuario a diferentes sistemas de coordenadas. Al usar esta herramienta se despliega una ventana con las opciones de ingreso de coordenadas, búsqueda por coordenadas y conversión en los diferentes sistemas.
+**{==(10)==}** **Conversor de Coordenadas:** Esta herramienta permite realizar la conversión de coordenadas ingresadas por el usuario a diferentes sistemas de coordenadas. Al usar esta herramienta se despliega una ventana con las opciones de ingreso de coordenadas, búsqueda por coordenadas y conversión en los diferentes sistemas.
 
 <figure markdown>
 ![Interfaz Bienvenida](images/Navegacion/003-conversion_coordenadas.png)
 <figcaption>Búsqueda y conversión por coordenadas</figcaption>
 </figure>
 
-**{==(11)==}** **Agregar datos Externos:** permite agregar nueva capa de datos de fuentes de geoservicios Web o de sistemas de ficheros, Los formatos soportados son *GeoJSON, CSV, SHAPEZIP, KML*. Para tablas con coordenadas puntuales, usar formato *CSV* con nombres de las coordenadas geográficas como ***longitude*** y ***latitude***. También permite agregar servicios *WMS* o *WFS* preconfigurados.
+**{==(11)==}** **Agregar datos Externos:** Esta herramienta permite agregar una nueva capa de datos desde fuentes de geoservicios Web o de sistemas de ficheros. Los formatos soportados son *GeoJSON, CSV, SHAPEZIP, KML*. Para tablas con coordenadas puntuales, se recomienda usar el formato *CSV* con nombres de las coordenadas geográficas como ***longitude*** y ***latitude***. También permite agregar servicios *WMS* o *WFS* preconfigurados.
 
 <figure markdown>
 ![Interfaz Bienvenida](images/Navegacion/004-capas_externas.png)
@@ -66,11 +66,11 @@ Las herramientas de navegación ubicada en la barra de herramientas, como se mue
 
 ## Panel de capas y leyenda
 
-El panel de capas se ubica en el panel lateral y la leyenda se despliega en la ventana flotante, en la parte izquierda del Visor Geográfico. A través de este menú lateral, es posible tener una organización de las capas geográficas, la simbología asociada y los incidencias ambientales reportados por los ciudadanos, de manera que esté a la mano la configuración e información del mapa.
+El panel de capas se ubica en el panel lateral, mientras que la leyenda se despliega en la ventana flotante en la parte izquierda del Visor Geográfico. A través de este menú lateral, es posible organizar las capas geográficas, la simbología asociada y los incidencias ambientales reportados por los ciudadanos, de manera que esté a la mano la configuración e información del mapa.
 
 ## Panel de capas geográficas
 
-Para desplegar el panel de capas geográficas simplemente haga clic sobre el icono Datos para desplegar el panel. El panel de capas geográficas está organizado por categorías, que permite al usuario identificar inicialmente las temáticas de interés.
+Para desplegar el panel de capas geográficas, simplemente haga clic sobre el icono Datos. El panel de capas geográficas está organizado por categorías, que permite al usuario identificar inicialmente las temáticas de interés.
 
 ![Barra de Herramientas](images/Navegacion/002.png){ align=left }
 
