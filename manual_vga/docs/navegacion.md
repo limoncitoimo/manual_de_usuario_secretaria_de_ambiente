@@ -66,39 +66,39 @@ Las herramientas de navegación ubicadas en la barra de herramientas, como se mu
 
 ## Panel de capas y leyenda
 
-El panel de capas se ubica en el panel lateral, mientras que la leyenda se despliega en la ventana flotante en la parte izquierda del Visor Geográfico. A través de este menú lateral, es posible organizar las capas geográficas, la simbología asociada y los incidencias ambientales reportados por los ciudadanos, de manera que esté a la mano la configuración e información del mapa.
+El panel de capas se ubica en el panel lateral, mientras que la leyenda se despliega en la ventana flotante en la parte izquierda del Visor Geográfico. A través de este menú lateral, es posible organizar las capas geográficas, la simbología asociada y las incidencias ambientales reportadas por los ciudadanos, de manera que esté a la mano la configuración e información del mapa.
 
 ## Panel de capas geográficas
 
-Para desplegar el panel de capas geográficas, simplemente haga clic sobre el icono Datos. El panel de capas geográficas está organizado por categorías, que permite al usuario identificar inicialmente las temáticas de interés.
+Para desplegar el panel de capas geográficas, simplemente haga clic sobre el icono **Datos**. El panel está organizado por categorías, lo que permite al usuario identificar inicialmente las temáticas de interés.
 
 ![Barra de Herramientas](images/Navegacion/002.png){ align=left }
 
-**Capas temáticas:** incluye las todas las capas de carácter misional organizadas por temáticas.
+**Capas temáticas:** Incluye todas las capas de carácter misional organizadas por temáticas.
 
-**Básico Temático:** las capas complementarias a los análisis espaciales ambientales, como la densidad de población.
+**Básico Temático:** Contiene las capas complementarias a los análisis espaciales ambientales, como la densidad de población.
 
-**Capas de usuario:** aquellas capas que son agregados por el usuario desde la herramienta avanza de agregar datos.
+**Capas de usuario:** Son aquellas capas que son agregadas por el usuario desde la herramienta avanzada de agregar datos.
 
 ## Propiedades de la capa
 
-Por cada capa geográfica, es posible cargar una serie de comportamientos y propiedades. Dependiendo del icono que se encuentre habilitado actualmente en dicha capa. La siguiente imagen muestra un ejemplo de capa geográfica temática.
+Por cada capa geográfica, es posible cargar una serie de comportamientos y propiedades, dependiendo del icono que se encuentre habilitado actualmente en dicha capa. La siguiente imagen muestra un ejemplo de capa geográfica temática.
 
 <figure markdown>
 ![Propiedades de las capas geográficas](images/Navegacion/003.png)
 <figcaption>Propiedades de las capas geográficas</figcaption>
 </figure>
 
-Las capas por defecto se encuentran desactivadas en la visualización del mapa, representadas con el icono ![Icono Apagado](images/Navegacion/004.png). Al hacer clic sobre este icono es posible activar la capa, cambiando al icono ![Icono Encendido](images/Navegacion/005.png).
+Las capas por defecto se encuentran desactivadas en la visualización del mapa, representadas con el icono ![Icono Apagado](images/Navegacion/004.png). Al hacer clic sobre este icono, es posible activar la capa, cambiando al icono ![Icono Encendido](images/Navegacion/005.png).
 
-Si la capa presenta la propiedad temporal, con el siguiente icono se puede desplegar el panel de filtro y cambio dinámico de la representación de la capa. como se muestra en la imagen a continuación ![Icono Temporalidad](images/Navegacion/006.png):
+Si la capa presenta la propiedad temporal, con el siguiente icono puede desplegar el panel de filtro y visualizar el cambio dinámico de la representación de la capa, como se muestra en la imagen a continuación ![Icono Temporalidad](images/Navegacion/006.png):
 
 <figure markdown>
 ![Herramienta de despliegue de propiedades temporales](images/Navegacion/007.png)
 <figcaption>Herramienta de despliegue de propiedades temporales</figcaption>
 </figure>
 
-Para desactivar la barra temporal, desactive la visualización de la capa en el mapa.
+Para desactivar la barra temporal, simplemente desactive la visualización de la capa en el mapa.
 
 De gran importancia dentro de la Infraestructura Espacial de Datos, es el despliegue de la información propia de la capa o los metadatos, en el que entregue al usuario el detalle de producción y mantenimiento de la capa. Para desplegar el menú de opciones de la capa, entre ellas la consulta de los metadatos de la capa haga clic sobre el icono ![Icono Opciones](images/Navegacion/008.png).
 
