@@ -100,7 +100,7 @@ Si la capa presenta la propiedad temporal, con el siguiente icono puede desplega
 
 Para desactivar la barra temporal, simplemente desactive la visualización de la capa en el mapa.
 
-De gran importancia dentro de la Infraestructura Espacial de Datos, es el despliegue de la información propia de la capa o los metadatos, en el que entregue al usuario el detalle de producción y mantenimiento de la capa. Para desplegar el menú de opciones de la capa, entre ellas la consulta de los metadatos de la capa haga clic sobre el icono ![Icono Opciones](images/Navegacion/008.png).
+Dentro de la Infraestructura Espacial de Datos, es de gran importancia el despliegue de la información propia de la capa o los metadatos, en el que se proporciona al usuario el detalle de producción y mantenimiento de la capa. Para desplegar el menú de opciones de la capa, entre ellas la consulta de los metadatos de la capa haga clic sobre el icono ![Icono Opciones](images/Navegacion/008.png).
 
 Esto despliega un menú emergente donde se puede acceder a las opciones de la capa, entre ellas la ventana con el metadato mínimo.
 
@@ -114,7 +114,7 @@ Esto despliega un menú emergente donde se puede acceder a las opciones de la ca
 <figcaption>Despliegue de metadatos de la capa geográfica</figcaption>
 </figure>
 
-En la opción del menú emergente de la capa *Ver indicadores ambientales* **(OAB)** permite desplegar el indicador ambiental asociado a la capa en el sitio Web del proyecto de  [Observatorio Ambiental de Bogotá](https://oab.ambientebogota.gov.co/). La siguiente imagen muestra un ejemplo de despliegue de indicadores ambientales asociados a la capa:
+En la opción *Ver indicadores ambientales* **(OAB)** del menú emergente de la capa, es posible desplegar el indicador ambiental asociado a la capa en el sitio Web del proyecto de  [Observatorio Ambiental de Bogotá](https://oab.ambientebogota.gov.co/). La siguiente imagen muestra un ejemplo de despliegue de los indicadores ambientales asociados a la capa:
 
 <figure markdown>
 ![Menu Opciones](images/Navegacion/011.png)
@@ -128,14 +128,14 @@ En la opción del menú emergente de la capa *Ver indicadores ambientales* **(OA
 
 Al hacer clic sobre algunos de los indicadores se redirecciona a la página del [Observatorio Ambiental de Bogotá](https://oab.ambientebogota.gov.co/).
 
-Otra de las opciones disponibles es cambiar el orden de las capas y la transparencia de cada una ellas. Este puede ser accedido con el icono ![Icono configuracion](images/Navegacion/icono-capa_propiedades.png) en el panel de herramientas del panel lateral de **Datos** o través del menú contextual de cada capa.
+Otra de las opciones disponibles es cambiar el orden de las capas y la transparencia de cada una. A esta opción puede accederse desde el icono ![Icono configuracion](images/Navegacion/icono-capa_propiedades.png) en el panel de herramientas del panel lateral de **Datos** o través del menú contextual de cada capa.
 
 <figure markdown>
 ![Menu Opciones](images/Navegacion/014-orden_transparencia.png)
 <figcaption>Menú Opciones capa geográfica</figcaption>
 </figure>
 
-Esto despliega una ventana de la configuración de las capas, tanto el orden como la transparencia.
+Esto despliega una ventana de la configuración de las capas, en la que se pueden modificar tanto el orden como la transparencia.
 
 <figure markdown>
 ![Menu Opciones](images/Navegacion/015-orden_transparencia.png)
@@ -144,7 +144,7 @@ Esto despliega una ventana de la configuración de las capas, tanto el orden com
 
 ## Panel de capas base
 
-Refiere a las capas base de representación sobre las que se despliegan las capas temáticas, y permiten entregar un contexto de ubicación. Las principales capas base, son el mapa base digital y la ortoimagen del Distrito de IDECA. Las capas base se encuentran en el panel flotante en la parte inferior derecha, junto al despliegue de coordenadas. 
+Hace referencia a las capas base de representación sobre las que se despliegan las capas temáticas, y permiten entregar un contexto de ubicación. Las principales capas base son el mapa base digital y la ortoimagen del Distrito de IDECA. Las capas base se encuentran en el panel flotante ubicado en la parte inferior derecha, junto al despliegue de coordenadas. 
 
 
 <figure markdown>
@@ -155,29 +155,29 @@ Refiere a las capas base de representación sobre las que se despliegan las capa
 
 ## Panel de información y leyenda
 
-El panel de información y leyenda, despliega la simbología asociada a las capas activas de visualización en el mapa. Para desplegar el panel de leyenda haga clic en una de las pestañas del panel flotante para que se despliegue la información de interés.
+El panel de información y leyenda se despliega la simbología asociada a las capas activas de visualización en el mapa. Para desplegar el panel de leyenda, haga clic en una de las pestañas del panel flotante para contemplar la información de interés.
 
 <figure markdown>
 ![Panel de información y leyenda](images/Navegacion/013.png)
 <figcaption>Panel de información y leyenda </figcaption>
 </figure>
 
-La leyenda y convenciones se organizan por las categorías definidas en el panel de capas geográficas.
+La leyenda y las convenciones se organizan según las categorías definidas en el panel de capas geográficas.
 
-La leyenda y convenciones son dinámicas en el mapa, ya que los comportamientos de la simbología de las capas cambian cuando se despliega en ciertos intervalos de escala. Esto permite un mejor representación de los elementos desde el nivel Distrital hasta nivel predial.
+La leyenda y las convenciones son dinámicas en el mapa, ya que los comportamientos de la simbología de las capas cambian cuando se despliega en ciertos intervalos de escala. Esto permite una mejor representación de los elementos desde el nivel Distrital hasta nivel predial.
 
 ## Compartir mapa en redes sociales
-Esta funcionalidad se encuentra habilitada en el panel lateral a través del botón de compartir configuración del mapa en las redes sociales ![Menu Opciones](images/Navegacion/014.png) o traves de la opción *Compartir capa* en el menú contextaul de cada capa.
+Esta funcionalidad se encuentra disponible en el panel lateral, mediante el botón de compartir configuración del mapa en las redes sociales ![Menu Opciones](images/Navegacion/014.png), o través de la opción *Compartir capa* en el menú contextual de cada capa.
 
-Al hacer clic sobre este grupo de iconos despliega las diferentes redes a través de las cuales se puede compartir la configuración del mapa.
+Al hacer clic sobre este grupo de íconos, se despliegan las diferentes redes sociales por medio de las cuales se puede compartir la configuración del mapa.
 
 <figure markdown>
 ![Opciones de compartir configuración de mapa en redes sociales](images/Navegacion/015.png)
 <figcaption>Opciones de compartir configuración de mapa en redes sociales </figcaption>
 </figure>
 
-Las redes sociales en su orden son [Twitter](https://twitter.com/?lang=es), [Facebook](https://es-la.facebook.com/),  [LinkedIn](https://co.linkedin.com/), [Pinterest](https://co.pinterest.com/), [Telegram](https://web.telegram.org/) y compartir a través de mensaje de correo electrónico.
+Las redes sociales en su orden son [Twitter](https://twitter.com/?lang=es), [Facebook](https://es-la.facebook.com/),  [LinkedIn](https://co.linkedin.com/), [Pinterest](https://co.pinterest.com/), [Telegram](https://web.telegram.org/) y compartir a través de correo electrónico.
 
-Una configuración de mapa está definida por una extensión geográfica y las capas activas actuales de visualización. Al compartir en la red social el enlace del mapa, el usuario comparte la vista actual del mapa y que luego puede ser desplegado con igual configuración.
+Una configuración de mapa está definida por una extensión geográfica y las capas activas actuales de visualización. Al compartir el enlace del mapa en una red social, el usuario comparte la vista actual del mapa, la cual puede ser oosterioremente desplegada con la misma configuración.
 
 También es posible generar un enlace web de mapa embebido con las capas actualmente desplegadas, así como el contexto geográfico representado. 
