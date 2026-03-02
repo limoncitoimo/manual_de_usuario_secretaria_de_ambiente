@@ -71,16 +71,16 @@ markdown_extensions:
       custom_checkbox: true
 ---
 
-Panel lateral de Reportes Ambientales
+## Panel lateral de Reportes Ambientales
 
-Antes de realizar cualquier reporte es necesario que realice la ubicación predial, ver en [Menú de ubicación](ubicacion.md), de otra forma no permite continuar con la generación del reporte.
+Antes de realizar cualquier reporte es necesario que realice la ubicación predial, ver en [Menú de ubicación](ubicacion.md), de o contrario, el sistema no permite continuar con la generación del reporte.
 
-Con la localización correcta predial, es posible la generación de dos reportes:
+Una vez realizada correctamente la localización predial, es posible la generación de dos reportes:
 
-- **Inclusión predial en determinantes ambientales:** Este reporte generado a nivel predial, permite conocer las inclusiones de áreas protegidas a nivel Distrital de acuerdo al [Decreto 555 de 2021](https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=119582) y demás determinantes ambientales.
-- **Jurisdicción predial:** este reporte generado a nivel predial, permite conocer la jurisdicción de entidades o instituciones para trámites de carácter ambiental.
-- **Respuesta a emergencia ambientales:** Reporte correspondiente al módulo de Respuesta a Emergencias Ambientales.
-- **Descarga de datos abiertos:** Reporte que corresponde a las estadísticas de descargas de [datos abiertos](datos_abiertos.md) por lo usuarios.
+- **Inclusión predial en determinantes ambientales:** Este reporte generado a nivel predial permite conocer las inclusiones de áreas protegidas a nivel Distrital de acuerdo al [Decreto 555 de 2021](https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=119582) y demás determinantes ambientales.
+- **Jurisdicción predial:** Este reporte generado a nivel predial permite conocer la jurisdicción de entidades o instituciones para trámites de carácter ambiental.
+- **Respuesta a emergencia ambientales:** Este reporte correspondiente al módulo de Respuesta a Emergencias Ambientales.
+- **Descarga de datos abiertos:** Este reporte que corresponde a las estadísticas de descargas de [datos abiertos](datos_abiertos.md) por lo usuarios.
 
 
 <figure markdown>
@@ -88,7 +88,7 @@ Con la localización correcta predial, es posible la generación de dos reportes
 <figcaption>Reportes Ambientales</figcaption>
 </figure>
 
-Una vez identifique el reporte, haga clic en el botón Generar reporte para crear el documento reporte. El resultado del reporte muestra un enlace para la descarga del documento
+Una vez identifique el reporte, haga clic en el botón **Generar Reporte** para crear el documento correspondiente. El resultado del reporte muestra un enlace para la descarga del documento.
 
 <figure markdown>
 ![Resultado de la generación de reporte](images/Reporte/02-formato.png)
